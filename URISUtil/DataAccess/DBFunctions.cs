@@ -17,7 +17,7 @@ namespace URISUtil.DataAccess
                 return ConfigurationManager.ConnectionStrings["ADOConnection"].ConnectionString;
             }
         }
-
+        //Test
         public static void AddParameter(this SqlCommand cmdToFill, string paramName, SqlDbType paramType, object param)
         {
             cmdToFill.Parameters.Add(paramName, paramType);
